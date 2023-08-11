@@ -20,7 +20,7 @@ function SwitchTab({tabs, onTabChange}) {
                 onClick={() => activeTab(tab,index)} 
                 className={`h-full flex items-center justify-center w-[60px] md:w-[100px] text-white text-base relative z-10 cursor-pointer
                 rounded-full transition-all ease-in 
-                ${selectedTab === index? 'text-black font-semibold bg-white duration-300 transition ' : ''}`}>
+                ${selectedTab === index? 'text-yellow-400 font-semibold bg-white duration-300 transition ' : ''}`}>
                     {tab}
                 </span>
             ))}

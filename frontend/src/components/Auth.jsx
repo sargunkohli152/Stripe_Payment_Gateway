@@ -16,13 +16,24 @@ function Auth({ type }) {
   const onSubmit = (e) => {
     e.preventDefault();
     localStorage.setItem('token', user.email)
-    axios
+    if(type === 'login'){
+
+      axios
       .post(`${apiUrl}/user/v1/login`, user)
       .then(setUser({ name: "", email: "", password: "", remember: false }))
-
+      
       //if has plan then navigate to home page else plan page
       .then(navigate("/plan"));
-  };
+    }
+    else {
+      axios
+      .post(`${apiUrl}/user/v1/new`, user)
+      .then(setUser({ name: "", email: "", password: "", remember: false }))
+      
+      //if has plan then navigate to home page else plan page
+      .then(navigate("/plan"));
+    }
+    };
 
   const onChange = (e) => {
     setUser({ ...user, [e.target.name]: e.target.value });

@@ -18,9 +18,7 @@ userRouter.post("/login", (req, res, next) => {
 });
 
 userRouter.get("/me", (req, res, next) => {
-    isAuthenticated(req, res, next)
-}, (req, res) => {
-    getMyProfile(req, res);
+    console.log(req.data)
 });
 
 userRouter.put("/choosePlan", (req, res, next) => {
@@ -42,7 +40,7 @@ userRouter.post("/payment", async (req, res, next) => {
             confirm: true
         })
 
-        console.log("Payment ", payment);
+        console.log("id is", id);
         res.json({
             success: true,
             message: "payment successful"

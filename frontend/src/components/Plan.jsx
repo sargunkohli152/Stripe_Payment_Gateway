@@ -3,6 +3,7 @@ import SwitchTab from "./utils/SwitchTab";
 import PlanCard from "./PlanCard";
 import axios from "axios";
 import { apiUrl } from "../config";
+import { Link } from "react-router-dom";
 
 function Plan() {
   const tabs = ["Monthly", "Yearly"];
@@ -56,6 +57,9 @@ function Plan() {
            ))}
           </div>
         </div>
+        <Link to={'/payment'} className="bg-[#1e4d91] text-white py-3 px-44 font-semibold rounded-md">
+            Next
+          </Link>
       </div>}
     </div>
   );
