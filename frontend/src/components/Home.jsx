@@ -28,7 +28,7 @@ function Home({activePlan}) {
       <h1 className='text-xl font-bold '>2,000/ Year</h1>
       <button className='bg-white my-3 text-[#1e4d91] border-2 border-[#1e4d91] px-4 py-1 font-semibold rounded-md'>{activePlan ? 'Change Plan' : 'Choose Plan'}</button>
       <div className='bg-[#ecebeb] rounded-md my-2 p-1'>
-        <span className='text-xs'>Your subscription has started on <span className='font-bold'>20th July,200</span> and will auto renew on <span className='font-bold'>Jul 20th 2023</span></span>
+        <span className='text-xs'>Your subscription has started on <span className='font-bold'>11th August,2023</span> and will auto renew on <span className='font-bold'>Aug 11th 2024</span></span>
       </div>
       </div>
     </div>
