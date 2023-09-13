@@ -80,7 +80,7 @@ To set up this project on your local machine, follow these steps:
 6. Access the application in your web browser at http://localhost:3000.
 
 ## Usage
-Describe how users can interact with your application. Include details on logging in, choosing a subscription plan, making a payment using Stripe in test mode (mention the CVV 4242 4242 4242 4242), and viewing account details.
+The web portal allows you to login into the platform or create an account if you're new to it. You then get too choose a subscription plan based on your requirements and then the site takes you to the payment gateway where you can pay for the subscription selected. Since Stripe is used for testing purposes in test mode, the only account number that wouldshow successful payment is 4242 4242 4242 4242. After successful payment, the user will be showed a screen with their account details and current subscription model.
 
 ## Contributing
 If you'd like to contribute to this project, follow these guidelines:
