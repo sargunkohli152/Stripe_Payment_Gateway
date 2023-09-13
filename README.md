@@ -2,6 +2,9 @@
 
 Welcome to Stripe payment gateway project! This application allows users to subscribe to different plans on any particular platform, make payments using Stripe in test mode, and manage their account details. Below, you'll find information on how to get started with this project.
 
+![Screenshot 1](screenshots/screenshot1.png)
+
+
 ## Table of Contents
 
 - [Project Overview](#project-overview)
