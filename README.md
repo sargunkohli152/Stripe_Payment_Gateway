@@ -18,7 +18,7 @@ Welcome to Stripe payment gateway project! This application allows users to subs
 
 ## Project Overview
 
-The Stripe payment gateway is designed to offer a seamless subscription and payment experience for users. Users can log in to their existing accounts or create new ones. Once logged in, they can choose from various subscription plans and proceed with payments using Stripe's test mode (where the only valid CVV is `4242 4242 4242 4242` for testing purposes). After a successful payment, users can view their account details, including their subscribed plan, expiration date (monthly or yearly), and the option to change their plan.
+The Stripe payment gateway is designed to offer a seamless subscription and payment experience for users. Users can log in to their existing accounts or create new ones. Once logged in, they can choose from various subscription plans and proceed with payments using Stripe's test mode (where the only valid CVV is `4242 4242 4242 4242` for testing purposes). After a successful payment, users can view their account details, including their subscribed plan, expiration date (either monthly or yearly), and the option to change their plan.
 
 ## Tech Stack
 
